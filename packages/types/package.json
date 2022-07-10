@@ -1,18 +1,15 @@
 {
-  "name": "ui",
+  "name": "types",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts*"
   },
   "devDependencies": {
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
-    "react": "^18.2.0",
     "tsconfig": "*",
     "typescript": "^4.7.4"
   }

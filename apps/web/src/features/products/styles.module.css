@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.thumbnail {
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+}

@@ -1,6 +1,22 @@
-# Turborepo starter with npm
+# Turborepo for Beeline interview challenge
 
-This is an official starter turborepo.
+This is a monorepo for Beeline interview challenge. I wanted to actually pull from a real backend
+
+## How to run
+
+```
+npm install
+```
+
+Both frontend and backend are run at the same time with
+
+```
+npm run dev
+```
+
+The frontend can be found at [localhost:3000](http://localhost:3000)
+
+Requires at least nodejs v16
 
 ## What's inside?
 
@@ -8,11 +24,12 @@ This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It inclu
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `server`: a backend express app
+- `web`: a [Vite](https://vitejs.dev/) app
+- `ui`: a stub React component library shared by any frontend applications
+- `eslint-config-custom`: `eslint` configurations (includes airbnb and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
+- `types`: a very small library storing TypeScript types used across both backend and frontend
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

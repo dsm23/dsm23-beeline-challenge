@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.vertical-divisor {
+  height: 100%;
+  border-right: 1px solid grey;
+}
+
+.store-container {
+  width: 70%;
+}
+
+.basket-container {
+  width: 30%;
+}
+
+.error-text {
+  color: rgb(220 38 38);
+  font-weight: 500;
+}
